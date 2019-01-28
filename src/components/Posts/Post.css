@@ -1,0 +1,27 @@
+.Post{
+    width: 70%;
+    border: 1px solid #eee;
+    box-shadow: 1px 2px #ccc;
+    margin: 90px auto;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.Post:hover{
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.Post button{
+    font: inherit;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+    border: none;
+}
+.Post button:hover,
+.Post button:active{
+    color: darkred;
+}
